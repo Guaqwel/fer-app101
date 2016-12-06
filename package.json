@@ -1,0 +1,23 @@
+{
+  "name": "fer-app",
+  "version": "0.0.1",
+  "homepage": "https://guaqwel.github.io/fer-app",
+  "proxy": "http://*/",
+  "devDependencies": {
+    "gh-pages": "^0.11.0",
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "skeleton-css": "^2.0.4"
+  },
+  "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
